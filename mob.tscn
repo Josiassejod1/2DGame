@@ -47,7 +47,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_8p2if"]
 radius = 52.345
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 gravity_scale = 2.66454e-15
 script = ExtResource("1_23diq")
 
